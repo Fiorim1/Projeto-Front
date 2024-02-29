@@ -1,0 +1,156 @@
+html {
+    /* Cor de fundo */
+    background: rgb(2, 0, 36);
+    /* Cor de fundo gradient */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(80, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    /* Pra cor de fundo não repitir */
+    background-repeat: no-repeat;
+    /* Tamanho do fundo */
+    background-size: cover;
+    /* Poisção do fundo */
+    background-position: center;
+    /* ALtura */
+    height: 100vh;
+
+}
+
+/*Foi pego a classe pai (nav-br) e escolhido a tag img para edição */
+.logo {
+    /* Margem da imagem */
+    margin: 50px 0 0 40px;
+
+
+
+}
+
+
+
+/*Edição da Under List */
+ul {
+    /* Posição da under list */
+    position: relative;
+    /* Altura da under list */
+    height: 70px;
+    /* Esquerda da under list */
+    left: 810px;
+}
+
+
+/* Deixar em linha reta */
+li {
+    /* Display da lista em linha */
+    display: inline-block;
+    /* Modificar a margem esquerda */
+    margin: -100px 0 0 5px;
+    /* Largura da lista */
+    width: 90px;
+    /* Altura da lista */
+    height: 40px;
+    /* Espaçamento de cima */
+    padding-top: 25px;
+    /* Tipo de lista None*/
+    list-style: none;
+    /* Alinhar texto no centro do box */
+    text-align: center;
+    /* Deixar todas as letras maiúsculas */
+    text-transform: uppercase;
+}
+
+
+a {
+    /* Colocar cor do texto em branco */
+    color: white;
+    /* Mudar o tamanho da fonte do texto */
+    font-size: 16px;
+    /* Decoração do texto */
+    text-decoration: none;
+}
+
+/* Criar uma animação para a nav bar */
+a:hover {
+    /* Botar uma animação de fundo assim que o mouse for passado por cima */
+    box-shadow: 0px 0px 400px 86px;
+
+}
+
+/* Estilizar o h2 pela div (title) */
+.title h2 {
+    /* Definir cor do h2 */
+    color: white;
+    /* Alinhar o h2 */
+    text-align: left;
+    /* Colocar margem no h2 */
+    margin: 150px 650px 0 30px;
+    /* Colocar o tamanho da fonte */
+    font-size: 30px;
+    
+}
+
+/* Estilizar o p pela div (desc) */
+.desc p {
+    /* Alinhar o texto no centro */
+    text-align: center;
+    /* Colocar cor do texto em branco */
+    color: white;
+    /* Colocar tamanho da fonte */
+    font-size: 20px;
+    /* Colocar a margem do texto */
+    margin: 10px 650px 0 30px;
+    
+    /* Colocar um espaçamento dentro do box */
+    padding: 10px;
+    /* Colocar um espaço entre as linhas */
+    line-height: 1.5;
+}
+
+/* Estilizar o img pela div (joy) */
+.joy img {
+    float: right;
+    margin: -450px 100px 0 80px;
+}
+
+.mySwiper {
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.container {
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    width: 600px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.box span {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+    width: 9px;
+    height: 9px;
+}
